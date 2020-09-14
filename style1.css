@@ -1,0 +1,19 @@
+table{
+border-style: solid ;
+    width: 640px;height: 480px;
+}
+th{
+    text-align: center;
+}
+table.th,td{
+    border:1px solid #dddddd;border-collapse: collapse;
+}
+th,td{ 
+    padding: 10px;
+}
+tr:nth-child(even){
+    background-color: aqua;
+}
+tr:nth-child(odd){
+    background-color: cadetblue;
+}
